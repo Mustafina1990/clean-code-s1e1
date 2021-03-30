@@ -31,7 +31,7 @@ body {
 .tasks__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .list__incomplete, .list__completed-task {
   margin:0;
@@ -116,7 +116,7 @@ body {
   width: 226px;
 }
 .tasks__text {
-  width: 226px
+  width: 226px;
 }
 .tasks__delete:hover {
   color: #cf2323;
@@ -132,18 +132,18 @@ body {
 
 /* Completed */
 .tasks__label-see {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .tasks__text {
-  display:none
+  display:none;
 }
 
 .tasks__text-go {
   display:inline-block;
-  width:224px
+  width:224px;
 }
 
 .tasks__label-go {
