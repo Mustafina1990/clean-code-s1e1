@@ -33,17 +33,23 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.list__incomplete, .list__completed-task {
+.list__incomplete, 
+.list__completed-task {
   margin:0;
   padding: 0px;
 }
-.tasks, .list__todo, .list__completed {
+.tasks, 
+.list__todo, 
+.list__completed {
   list-style:none;
 }
-.tasks__check,.tasks__edit, .tasks__delete {
+.tasks__check,
+.tasks__edit, 
+.tasks__delete {
   outline:none;
 }
-.tasks__edit, .tasks__delete {
+.tasks__edit, 
+.tasks__delete {
   background: none;
   border: 0px;
   color: #888;
@@ -52,11 +58,13 @@ body {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.tasks__edit:hover, .tasks__delete:hover {
+.tasks__edit:hover, 
+.tasks__delete:hover {
   color: #3a3a3a;
 }
 /* Heading */
-.list__todo, .list__label {
+.list__todo, 
+.list__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
