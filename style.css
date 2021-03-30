@@ -18,7 +18,7 @@ body {
 }
 
 @media (max-width:768px) {
-    
+
   .header-logo { 
     text-align: center;
   }
@@ -40,7 +40,7 @@ body {
 .tasks, .list__todo, .list__completed {
   list-style:none;
 }
-.tasks__check,.tasks__edit, .tasks__delete{
+.tasks__check,.tasks__edit, .tasks__delete {
   outline:none;
 }
 .tasks__edit, .tasks__delete {
